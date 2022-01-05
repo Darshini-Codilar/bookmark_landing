@@ -1,0 +1,77 @@
+.download_section2{
+    padding-top: 20rem;
+
+}
+
+.download_section2 h3{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 550;
+}
+
+.download_section2 p{
+    color: rgb(144, 147, 161);
+    margin: 1rem 40rem;
+    line-height: 1.8;
+    font-size: 1.2rem;  
+    text-align: center;
+    width: 30%;
+}
+
+.cards_section2{
+    display: flex;
+    margin: auto;
+    height: auto;
+    width: 53%;
+    justify-content: space-between;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   row-gap: 2rem;
+   box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+   text-align: center;
+   padding: 2.5rem 0;
+   border-radius: 1rem;
+   position: relative;
+}
+
+.card_text h4{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card_text p{
+    color: rgb(144, 147, 161);
+    margin-top: 10px;
+    margin-bottom: 2px; 
+    font-size: 1rem;  
+    font-weight: 500;  
+}
+
+.btn_cards{
+    background-color: #5267df;
+    color: white;
+    width: 12rem;
+    height: 3rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 00.4rem;
+  }
+
+.btn_cards:hover {
+    background-color: white;
+    color: #5267df;
+    border: 1px solid #5267df;
+  }
+
+.card2{
+    top: 5rem;
+}
+.card3{
+    top:10rem;
+}
