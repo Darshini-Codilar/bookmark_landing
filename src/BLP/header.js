@@ -15,6 +15,9 @@ class Header extends PureComponent {
                                 <li><a href="#contact">Contact</a></li>
                                 <li className="btn_red"><button>LOGIN</button> </li>
                             </ul>
+                            <div className="menu">
+                                <img src="images/icon-hamburger.svg" alt="" />
+                            </div>
                     </div>
                 </nav>
 

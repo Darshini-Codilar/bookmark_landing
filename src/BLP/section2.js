@@ -22,7 +22,7 @@ class Section2 extends PureComponent {
                             </h4>
                             <p>Minimum version 62</p></div>
                         
-                       <div> <img src="images/bg-dots.svg" alt="bg" /></div>
+                            <div className="line_img"> <img src="images/bg-dots.svg" alt="bg" /></div>
                       <div>  <button class="btn_cards">Add &
                             Install Extension</button></div>
                    </div>
@@ -36,7 +36,7 @@ class Section2 extends PureComponent {
                             </h4>
                             <p>Minimum version 62</p></div>
                         
-                        <div><img src="images/bg-dots.svg" alt="bg" /></div>
+                        <div className="line_img"><img src="images/bg-dots.svg" alt="bg" /></div>
                         
                        <div><button class="btn_cards">Add &
                             Install Extension</button></div>
@@ -52,7 +52,7 @@ class Section2 extends PureComponent {
                             </h4>
                             <p>Minimum version 62</p></div>
                         
-                       <div> <img src="images/bg-dots.svg" alt="bg" /></div>
+                            <div className="line_img"> <img src="images/bg-dots.svg" alt="bg" /></div>
                        <div><button class="btn_cards">Add &
                             Install Extension</button></div> 
 

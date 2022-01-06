@@ -217,4 +217,63 @@ form {
   .icons_footer a{
       padding: 0 2rem;
   }
- 
+ @media screen and (max-width:720px) {
+     .question_freq{
+        padding:0 2.8rem;
+        margin-top: 9rem;
+     }
+     .question_freq h3{
+        font-size: 1.5rem;
+        font-weight: 550;
+        
+     }
+     .question_freq p{
+        margin: 1.6rem 0;
+        line-height: 1.8;
+        
+        width: 100%;
+     }
+     .faqs{
+         padding: 0 2.5rem;
+     }
+     .faqs_content .question {
+        
+        align-items: start;
+        padding-top: 2rem;
+     }
+     .faqs_content .question_text{
+         font-size: 1rem;
+     }
+     form{
+         width: 100%;
+         flex-direction: column;
+         row-gap: 1rem;
+         height: auto;
+         padding: 2rem 0;
+     }
+     .input-container{
+         width: 80%;
+     }
+     .button_contact{
+         width: 80%;
+         margin-left: 0;
+     }
+     .button_contact button{
+         width: 100%;
+     }
+     .footer_links{
+         width: 100%;
+         flex-direction: column;
+         height: auto;
+         row-gap: 1rem;
+         padding: 3rem 0;
+     }
+     .links-right{
+         flex-direction: column;
+         width: 100%;
+         row-gap: 1rem;
+     }
+     .icons_footer{
+         width: 100%;
+     }
+ }

@@ -75,3 +75,42 @@
 .card3{
     top:10rem;
 }
+@media (max-width:768px){
+
+.download_section2 {
+    padding-top: 8rem;
+}
+
+.download_section2 h3 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.download_section2 p{
+     margin: 2rem 2rem;
+    width: 90%;
+    font-size: 1rem;
+    text-align: center; 
+
+}
+
+    .card{
+        position: static;
+        width: 80%;
+        margin: auto;
+    }
+    .cards_section2{
+        flex-direction: column;
+        row-gap: 2rem;
+        width: 100%;
+    }
+    .btn_cards{
+        width: 80%;
+    }
+    .line_img{
+        width: 100%;
+    }
+    .line_img img{
+        width: 100%;
+    }
+}

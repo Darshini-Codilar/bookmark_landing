@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
@@ -8,7 +15,7 @@ body{
     width: 80%;
 
     margin: 4rem auto 0 auto;
-    column-gap: 6rem;
+    
     justify-content: space-between;
 }
 
@@ -19,7 +26,9 @@ body{
 .logo img{
     width: 100%;
 }
-
+.menu{
+    display: none;
+}
 .container-inner ul{
     width: 35%;
     display: flex;
@@ -157,4 +166,74 @@ body{
     height: 41%;
     right: 0;
     border-bottom-left-radius: 10rem;
+}
+@media (max-width:768px){
+    .container-inner ul{
+        display: none;
+    }
+    .logo{
+        width: 50%;
+    }
+
+    .logo img{
+        width: 10rem;
+    }
+    .menu{
+        width: 10%;
+        display: block;
+        margin-top: 0.5rem;
+    }
+    .container-inner .logo{
+        padding: 0 5%;
+    }
+    .row_main{
+        flex-direction:column-reverse;
+        row-gap: 3rem;
+    }
+
+    .container_header{
+        margin-top: 2rem;
+    }
+
+    .col1{
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .col1 h1{
+        font-size: 1.9rem;
+        text-align: center;
+        font-weight: 550;
+    }
+
+    .col1 p{
+        text-align: center;
+        font-size: 1rem;
+        width: 92%;
+        margin: 2rem 1rem;
+
+    }
+   
+    .col2 img {
+        margin-left: 6px;
+        margin-top: 1rem;
+    }
+
+    .blue-bg_right{
+       
+        bottom: 28rem;
+        width: 80%;
+        height: 23%;
+        border-bottom-left-radius: 6rem;    
+    }
+
+    .btn1{
+        width: 70%;
+        height: 3.5rem;
+    }
+
+    .btn2{
+        width: 70%;
+        height: 3.5rem;
+    }
 }

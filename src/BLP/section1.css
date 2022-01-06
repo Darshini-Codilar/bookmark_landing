@@ -68,11 +68,12 @@ h2{
 .col1_section1 .blue-bg_left{
     position: absolute;
     background-color: #5267df;
-    margin-top: -15rem;
+    margin-top: ;
     z-index:-1;
-    width: 32%;
-    height: 38%;
-    left: 0;
+    min-width: 49rem;
+    min-height: 26rem;
+    left: -170px;
+    top: 95rem;
     border-bottom-right-radius: 10rem;
 }
 
@@ -110,3 +111,83 @@ h2{
     color: #5267df;
     border: 1px solid #5267df;
   }
+
+  @media (max-width:768px){
+
+  h2 {
+    font-size: 1.5rem;
+}
+
+.features p{
+      margin: 0.8rem 1.8rem;
+      width: 87%;
+      font-size: 1rem;
+}
+
+.options{
+    display: grid;
+    border-top: 0.5px solid rgba(144, 147, 161, 0.3);
+    width: 65%;
+    text-align: center;
+    margin: 4rem auto 5rem auto;
+}
+.option{
+    border-bottom: 0.5px solid rgba(144, 147, 161, 0.3);
+}
+
+
+.options .option:hover {
+    cursor: pointer;
+    color: rgb(249, 86, 86);
+    border-bottom: 2px solid hsl(0, 94%, 66%);
+  }
+
+.row_section1{
+    flex-direction: column;
+    row-gap: 7rem;
+}
+
+.col1_section1 .img {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+.img img{
+    width: 80%;
+}
+
+.col1_section1 .blue-bg_left {
+    top: 86rem;
+    min-width: 30rem;
+    min-height: 12rem;
+    border-bottom-right-radius: 8rem;
+}
+
+.col2_section1{
+    margin-top: 0;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 ;
+    
+}
+
+.col2_section1 h3 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.col2_section1 p{
+    margin: 0.8rem 1.8rem;
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.btn_section1 {
+    margin-left: 9rem;
+}
+
+}

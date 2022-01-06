@@ -2,6 +2,7 @@ import Header from './BLP/header';
 import Section1 from './BLP/section1';
 import Section2 from './BLP/section2';
 import Footer from './BLP/footer';
+import "./App.css";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
      <Header/>
      <Section1/>
      <Section2/>
-     <Footer/>
+     <Footer/> 
     </div>
   );
 }
