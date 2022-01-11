@@ -1,0 +1,250 @@
+.question_freq {
+	padding-top: 20rem;
+	h3 {
+		font-size: 2.2rem;
+		text-align: center;
+		font-weight: 550;
+	}
+	p {
+		color: var(--coolGray);
+		margin: 1rem 40rem;
+		line-height: 1.8;
+		font-size: 1.2rem;
+		text-align: center;
+		width: 30%;
+	}
+}
+.faqs {
+	padding: 0 28rem;
+}
+.faqs_content {
+	.question {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-top: 2rem;
+		&:hover {
+			cursor: pointer;
+			color: var(--softRed);
+		}
+	}
+	.question_text {
+		font-weight: 400;
+		color: black;
+		font-size: 1.2rem;
+		&:hover {
+			cursor: pointer;
+			color: var(--softRed);
+		}
+	}
+	.answer {
+		margin: 2rem 0 4rem;
+	}
+}
+hr {
+	background-color: var(--coolGray);
+	margin-top: 4rem;
+}
+.button_faqs {
+	margin-top: 6rem;
+	text-align: center;
+}
+.btn_faqs {
+	background-color: #5267df;
+	color: white;
+	width: 6rem;
+	height: 3rem;
+	font-size: 0.9rem;
+	font-weight: bolder;
+	border: none;
+	border-radius: 00.4rem;
+	&:hover {
+		background-color: white;
+		color: #5267df;
+		border: 1px solid #5267df;
+	}
+}
+.contact-section {
+	background-color: #5267df;
+	margin-top: 4rem;
+	color: white;
+	text-align: center;
+	.contact-content {
+		padding: 3rem 4rem 0 4rem;
+		p {
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-size: 0.9rem;
+			letter-spacing: 4px;
+			margin-bottom: 1.5rem;
+		}
+		h3 {
+			font-size: 1.5rem;
+			font-weight: bolder;
+		}
+	}
+}
+form {
+	width: 45%;
+	height: 7rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+}
+.input-container {
+	background-color: var(--softRed);
+	height: auto;
+	border-radius: 0.5rem;
+	width: 70%;
+	padding: 0.4rem;
+}
+.input-f {
+	width: 99%;
+	border-radius: 0.4rem;
+	background-color: white;
+	height: 2rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.2rem;
+	input {
+		border-radius: 0.5rem;
+		border: none;
+		padding-left: 2rem;
+		&:focus {
+			outline: none;
+		}
+	}
+	.error-img {
+		margin-top: 0.3rem;
+		height: 70%;
+		display: none;
+	}
+	.b {
+		display: block;
+	}
+}
+.error-message {
+	h6 {
+		text-align: left;
+		font-size: 0.7rem;
+		font-style: italic;
+		font-weight: bolder;
+		margin-top: 0.3rem;
+	}
+}
+.button_contact {
+	margin-top: px;
+	margin-left: 50px;
+}
+.btn_contact {
+	background-color: var(--softRed);
+	color: white;
+	width: 6rem;
+	height: 2.5rem;
+	font-size: 0.9rem;
+	font-weight: bolder;
+	border: none;
+	border-radius: 00.4rem;
+	&:hover {
+		background-color: white;
+		color: var(--softRed);
+		border: 1px solid var(--softRed);
+	}
+}
+.footer-social {
+	background-color:var(--coolGray);
+	width: 100%;
+}
+.footer_links {
+	background-color: var(--coolGray);
+	height: 5rem;
+	text-align: center;
+	display: flex;
+	width: 89%;
+	justify-content: space-between;
+	margin: auto;
+	align-items: center;
+}
+.links-right {
+	display: flex;
+	width: 40%;
+	justify-content: space-between;
+	align-items: center;
+	a {
+		text-decoration: none;
+		color: white;
+		font-size: 1rem;
+		transition: 0.3s ease;
+		text-transform: uppercase;
+		font-weight: 400;
+		&:hover {
+			color: var(--softRed);
+		}
+	}
+}
+.icons_footer {
+	width: 20%;
+	a {
+		padding: 0 2rem;
+	}
+}
+@media screen and (max-width:720px) {
+	.question_freq {
+		padding: 0 2.8rem;
+		margin-top: 9rem;
+		h3 {
+			font-size: 1.5rem;
+			font-weight: 550;
+		}
+		p {
+			margin: 1.6rem 0;
+			line-height: 1.8;
+			width: 100%;
+		}
+	}
+	.faqs {
+		padding: 0 2.5rem;
+	}
+	.faqs_content {
+		.question {
+			align-items: start;
+			padding-top: 2rem;
+		}
+		.question_text {
+			font-size: 1rem;
+		}
+	}
+	form {
+		width: 100%;
+		flex-direction: column;
+		row-gap: 1rem;
+		height: auto;
+		padding: 2rem 0;
+	}
+	.input-container {
+		width: 80%;
+	}
+	.button_contact {
+		width: 80%;
+		margin-left: 0;
+		button {
+			width: 100%;
+		}
+	}
+	.footer_links {
+		width: 100%;
+		flex-direction: column;
+		height: auto;
+		row-gap: 1rem;
+		padding: 3rem 0;
+	}
+	.links-right {
+		flex-direction: column;
+		width: 100%;
+		row-gap: 1rem;
+	}
+	.icons_footer {
+		width: 100%;
+	}
+}

@@ -2,12 +2,21 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
-/* /* :root {
-    --soft-blue: #5267df;
-    --soft-red: rgb(249, 86, 86);
-    --grayish-blue: );rgb(144, 147, 161
-    --very-dark-blue: rgb(36, 43, 70);
-  } */
+
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+
+
+:root{
+  --softBlue: #5368df;
+  --softRed: #F95656;
+  --grayishBlue: #9194a1;
+  --veryDarkBlue: #252b46;
+  --lightGRay: #e5e5e5;
+  --coolGray:#9093A1;
+}
+

@@ -1,5 +1,5 @@
 import { PureComponent } from "react";
-import './section1.css';
+import './section1.scss';
 
 class Section1 extends PureComponent {
     render() {
